@@ -1,0 +1,42 @@
+.container {
+  margin: 0 auto;  
+  width: 750px;
+}
+
+#que_hacemos {
+
+}
+
+.feature1 .text {
+	display: inline-block;
+	float: left;
+	text-align: justify;
+	width: 350px;
+}
+
+.feature1 img {
+	display: inline-block;
+	float: right;
+}
+
+.feature2 .text {
+	display: inline-block;
+	float: right;
+	width: 350px;
+	text-align: justify;
+}
+
+.feature2 img {
+	display: inline-block;
+	float: left;
+}
+
+.text p { /*:first-child*/
+	margin-top: 0;
+}
+
+
+.clear {
+	clear: both;
+	margin-bottom: 30px;
+}
